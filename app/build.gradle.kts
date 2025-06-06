@@ -48,6 +48,8 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.hilt)
     implementation(libs.datastore)
+    implementation(libs.lifecycle.livedata.ktx)
+    implementation(libs.lifecycle.viewmodel.ktx)
     ksp(libs.hiltCompiler)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
